@@ -1,0 +1,477 @@
+body {
+
+    font-size: 20px;
+
+    background-color: #f2f2f2;
+
+    margin : 0px;
+
+}
+
+main {
+
+  text-align: center;
+
+}
+
+summary {
+
+  font-size: 24px;
+
+  font-weight: bold;
+
+}
+
+nav a{
+
+  text-decoration: none;
+
+  color : black;
+
+  font-size: 20px;
+
+  padding : 10px;
+
+}
+
+nav{
+
+  text-align: center;
+
+   background-color: white;
+
+   position: sticky;
+
+   top :0;
+
+   padding: 10px;
+
+}
+
+.icon img{
+
+  width:40px;
+
+  height: auto;  
+
+  padding : 15px;
+
+}
+
+.icon {
+
+    margin-top : 50px;
+
+    margin-bottom: 40px;
+
+}
+
+.white{
+
+  margin : 50px;
+
+  background-color: white;
+
+  letter-spacing: 5px;
+
+  width: auto;
+
+  text-align: center;
+
+  color : royalblue;
+
+  border-radius: 50px;
+
+  height: auto;
+
+  font-size: 20px;
+
+  padding : 15px;
+
+}
+
+fieldset{
+
+  background-color: royalblue;
+
+  color : white;
+
+  text-align: center;
+
+  font-size: 25px;
+
+  letter-spacing: 3px;
+
+  padding : 16px;
+
+}
+
+h1 {
+
+  font-style: italic;
+
+  font-size: 60px;
+
+  padding : 20px;
+
+  margin : 20px;
+
+}
+
+h3 {
+
+  text-transform: uppercase;
+
+  letter-spacing: 10px;
+
+  font-size: 30px; 
+
+  text-shadow: 2px 2px black;
+
+}
+
+#pic {
+
+  
+
+  width : 300px;
+
+  height : auto;  
+
+  display : block;
+
+  margin-left : auto;
+
+  margin-right : auto;
+
+}
+
+#sidepic {
+
+  float : right;
+
+  width : 300px;
+
+  background-color: #f2f2f2;
+
+  height: auto;
+
+}
+
+article img {
+
+  float : left;
+
+  width : 320px;
+
+  margin : 30px;
+
+  height: auto;
+
+} 
+
+article {
+
+  margin-bottom : 100px;
+
+}
+
+.about {
+
+  letter-spacing: 3px;
+
+  padding : 10px;
+
+  font-size: 25px;
+
+  line-height:40px;
+
+  word-spacing: 10px;
+
+}
+
+details {
+
+  display: inline ;
+
+  text-align: left;
+
+  padding : 20px;
+
+  text-decoration: none;
+
+}
+
+h2 {
+
+  font-size: 50px;
+
+  text-align: center;
+
+  color: dimgrey;
+
+  padding : 10px;
+
+  text-shadow: 2px 2px black;
+
+  font-family: Arial, Helvetica, sans-serif ;
+
+  margin: 150px 0px 100px 0px; 
+
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+
+}
+
+.input{
+
+  font-size: 20px;
+
+  width : 280px;
+
+  padding : 10px;
+
+  margin: 20px 15px 20px 15px ;
+
+  border-radius: 15px;
+
+  border : 1px darkgrey solid;
+
+}
+
+#textarea {
+
+  padding :10px;
+
+  font-size: 20px;
+
+  margin : 20px 40px 50px 40px;
+
+  width : 65%;
+
+  height:240px;
+
+  border-radius : 15px;
+
+  border : 1px darkgrey solid ;
+
+}
+
+.submitbutton{
+
+  background-color: royalblue;
+
+  width: auto;
+
+  text-align: center;
+
+  color : white;
+
+  border-radius: 50px;
+
+  height: auto;
+
+  font-size: 25px;
+
+  letter-spacing: 3px;
+
+  margin: 20px 20px 20px 20px;
+
+  padding : 15px 30px;
+
+}
+
+label {
+
+  font-style : italic ;
+
+  text-align: left; 
+
+  display: block;
+
+  width : 80%;
+
+  padding : 10px;
+
+  margin : 10px;
+
+  background-color: white;
+
+}
+
+progress {
+
+  width : 80%;
+
+  color: royalblue;  
+
+  text-align: left; 
+
+  margin: 0px 25px;
+
+}
+
+.bars {
+
+  background-color : white;
+
+  width : 80%;
+
+  margin: 5%;
+
+  padding : 5%;
+
+  box-shadow: 3px 3px 3px dimgrey;
+
+}
+
+.port img { 
+
+  width: 31%;
+
+  height : auto;
+
+  padding : 5px;
+
+}
+
+.shortpic{
+
+  display: flex; 
+
+  justify-content: space-evenly;
+
+  flex-wrap: wrap;
+
+  flex-basis : 40px;
+
+  text-align : center ;
+
+  color : white;
+
+}
+
+.shortpic img{
+
+  margin: 10px;
+
+  width : 10%;
+
+  height: auto;
+
+}
+
+b {
+
+  color : royalblue;
+
+  font-size: 25px;
+
+}
+
+.meet {
+
+  width : 65%;
+
+  height: auto;
+
+  margin: 200px auto 100px auto;
+
+  display:block;
+
+  padding : 10px;
+
+}
+
+figcaption{
+
+  text-align: center;
+
+  font-weight: bold;
+
+  font-size: 2rem;
+
+  color: royalblue;
+
+  margin : 0px 10px;
+
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+
+}
+
+.shortpic div{
+
+   padding : 10px ;
+
+   margin : 10px;
+
+   font-size: 18px;
+
+   background-color:royalblue;
+
+}
+
+.contact {
+
+  display : flex;
+
+  flex-basis: 40px;
+
+  justify-content: space-evenly;
+
+  color : black;
+
+  flex-wrap: wrap;
+
+  text-align: center;
+
+  margin-bottom: 100px;
+
+}
+
+.contact div {
+
+  padding : 20px;
+
+  background-color: white;
+
+  margin : 10px;
+
+  border : 1px solid lightgrey;
+
+  line-height: 30px;
+
+  text-align: center;
+
+}
+
+.contact img {
+
+  margin : 10px;
+
+  width : 70px;
+
+}
+
+.footer a {
+
+  color:white;
+
+  text-decoration: none;
+
+}
+
+.footer {
+
+  padding : 20px;
+
+  text-align: center;
+
+  background-color : royalblue;
+
+  color: white;
+
+}
