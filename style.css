@@ -432,11 +432,13 @@ figcaption{
 
 }
 .contact p { 
+    
     font-size : 15px ;
-    }
+}
 
 .contact div {
-    overflow-x: auto;
+    
+  overflow-x: auto;
 
   padding : 20px;
 
