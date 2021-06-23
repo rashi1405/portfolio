@@ -436,6 +436,7 @@ figcaption{
     }
 
 .contact div {
+    overflow-x: auto;
 
   padding : 20px;
 
