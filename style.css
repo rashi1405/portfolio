@@ -1,0 +1,415 @@
+body {
+
+    font-size: 20px;
+
+    background-color: #f2f2f2;
+
+    margin : 0px;
+
+}
+
+nav{
+
+  text-align: center;
+
+   background-color: white;
+
+   position: sticky;
+
+   top :0;
+
+   padding: 10px;
+
+}
+
+nav a{
+
+  text-decoration: none;
+
+  color : black;
+
+  font-size: 20px;
+
+  padding : 10px;
+
+}
+
+fieldset{
+
+  background-color: royalblue;
+
+  color : white;
+
+  text-align: center;
+
+  font-size: 25px;
+
+  letter-spacing: 3px;
+
+  padding : 16px;
+
+}
+
+h1 {
+
+  font-style: italic;
+
+  font-size: 60px;
+
+  padding : 20px;
+
+  margin : 20px;
+
+}
+
+h3 {
+
+  text-transform: uppercase;
+
+  letter-spacing: 10px;
+
+  font-size: 30px; 
+
+  text-shadow: 2px 2px black;
+
+}
+
+#pic {
+
+  width : 300px;
+
+  height : auto;  
+
+  display : block;
+
+  margin-left : auto;
+
+  margin-right : auto;
+
+}
+
+.white{
+
+  margin : 50px;
+
+  background-color: white;
+
+  letter-spacing: 5px;
+
+  width: auto;
+
+  text-align: center;
+
+  color : royalblue;
+
+  border-radius: 50px;
+
+  height: auto;
+
+  font-size: 20px;
+
+  padding : 15px;
+
+}
+
+.icon {
+
+    margin-top : 50px;
+
+    margin-bottom: 40px;
+
+}
+
+.icon img{
+
+  width:40px;
+
+  height: auto;  
+
+  padding : 15px;
+
+}
+
+article {
+
+  margin-bottom : 100px;
+
+}
+
+article img {
+
+  float : left;
+
+  width : 300px;
+
+  margin : 30px;
+
+  height: auto;
+
+}
+
+.about {
+
+  letter-spacing: 2px;
+
+  padding : 10px;
+
+  font-size: 25px;
+
+  line-height:40px;
+
+  word-spacing: 7px;
+
+}
+
+main {
+
+  text-align: center;
+
+}
+
+.port img { 
+
+  width: 30%;
+
+  height : auto;
+
+  padding : 8px;
+
+}
+
+.bars {
+
+  background-color : white;
+
+  width : 80%;
+
+  margin: 5%;
+
+  padding : 5%;
+
+  box-shadow: 3px 3px 3px dimgrey;
+
+}
+
+.submitbutton{
+
+  background-color: royalblue;
+
+  width: auto;
+
+  text-align: center;
+
+  color : white;
+
+  border-radius: 50px;
+
+  height: auto;
+
+  font-size: 25px;
+
+  letter-spacing: 3px;
+
+  margin: 20px 20px 20px 20px;
+
+  padding : 15px 30px;
+
+}
+
+label {
+
+  font-style : italic ;
+
+  text-align: left; 
+
+  display: block;
+
+  width : 80%;
+
+  padding : 10px;
+
+  margin : 10px;
+
+  background-color: white;
+
+}
+
+progress {
+
+  width : 80%;
+
+  color: royalblue;  
+
+  text-align: left; 
+
+  margin: 0px 25px;
+
+}
+
+h2 {
+
+  font-size: 50px;
+
+  text-align: center;
+
+  color: dimgrey;
+
+  padding : 10px;
+
+  text-shadow: 2px 2px black;
+
+  font-family: Arial, Helvetica, sans-serif ;
+
+  margin: 100px 0px 80px 0px; 
+
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+
+}
+
+.contact {
+
+  display : flex;
+
+  flex-basis: 40px;
+
+  justify-content: space-evenly;
+
+  color : black;
+
+  flex-wrap: wrap;
+
+  text-align: center;
+
+  margin-bottom: 100px;
+
+}
+
+.contact p {
+
+  font-size : 15px;
+
+  text-align: center;
+
+}
+
+.contact div {
+
+  padding : 20px;
+
+  background-color: white;
+
+  margin : 10px;
+
+  border : 1px solid lightgrey;
+
+  line-height: 30px;
+
+  text-align: center;
+
+  overflow-x: auto;
+
+}
+
+.contact img {
+
+  margin : 10px;
+
+  width : 70px;
+
+}
+
+b {
+
+  color : royalblue;
+
+  font-size: 25px;
+
+}
+
+.meet {
+
+  width : 60%;
+
+  height: auto;
+
+  margin: 200px auto 100px auto;
+
+  display:block;
+
+  padding : 10px;
+
+}
+
+figcaption{
+
+  text-align: center;
+
+  font-weight: bold;
+
+  font-size: 2rem;
+
+  color: royalblue;
+
+  margin : 0px 10px;
+
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+
+}
+
+.input{
+
+  font-size: 20px;
+
+  width : 280px;
+
+  padding : 10px;
+
+  margin: 20px 15px 20px 15px ;
+
+  border-radius: 15px;
+
+  border : 1px darkgrey solid;
+
+}
+
+#textarea {
+
+  padding :10px;
+
+  font-size: 20px;
+
+  margin : 20px 40px 50px 40px;
+
+  width : 65%;
+
+  height:240px;
+
+  border-radius : 15px;
+
+  border : 1px darkgrey solid ;
+
+}
+
+.footer a {
+
+  color:white;
+
+  text-decoration: none;
+
+}
+
+.footer {
+
+  padding : 20px;
+
+  text-align: center;
+
+  background-color : royalblue;
+
+  color: white;
+
+}
