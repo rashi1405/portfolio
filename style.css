@@ -33,7 +33,17 @@ nav a{
   padding : 10px;
 
 }
+nav a:active {
 
+  color:red;
+
+}
+
+nav a:visited {
+
+  color: green;
+
+}
 fieldset{
 
   background-color: royalblue;
