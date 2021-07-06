@@ -33,7 +33,7 @@ nav a{
   padding : 10px;
 
 }
-nav a:active {
+nav a:hover {
 
   color:red;
 
@@ -41,10 +41,12 @@ nav a:active {
 
 nav a:visited {
 
-  color: green;
+  color: blue;
 
 }
-fieldset{
+fieldset{  
+    
+  background-image: linear-gradient( #6194D1 ,royalblue);
 
   background-color: royalblue;
 
@@ -187,6 +189,15 @@ main {
   padding : 8px;
 
 }
+
+@media (max-width: 600px) {
+  .port img {
+    width : 80%;
+    margin : auto;
+    height : 300px;
+  }
+}
+
 
 .bars {
 
