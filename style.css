@@ -311,7 +311,7 @@ h2 {
 
 .contact p {
 
-  font-size : 15px;
+  font-size : 18px;
 
   text-align: center;
 
@@ -319,7 +319,7 @@ h2 {
 
 .contact div {
 
-  padding : 20px;
+  padding : 18px;
 
   background-color: white;
 
@@ -400,6 +400,22 @@ figcaption{
   border : 1px darkgrey solid;
 
 }
+
+@media (max-width : 480px) {
+
+  .input {
+
+  width : 65%;  
+
+  padding :10px;
+
+  font-size: 20px;
+
+  margin : 20px 40px;
+
+}}
+
+
 
 #textarea {
 
