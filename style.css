@@ -408,7 +408,9 @@ figcaption{
 }
 
 @media (max-width : 480px) {
-
+  .contact {
+    flex-basis : 90%;
+}
   .input {
 
   width : 65%;  
