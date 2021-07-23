@@ -352,6 +352,8 @@ h2 {
 }
 
 b {
+  
+  padding : 0 30px;
 
   color : royalblue;
 
@@ -408,9 +410,7 @@ figcaption{
 }
 
 @media (max-width : 480px) {
-  .contact {
-    flex-basis : 90%;
-}
+ 
   .input {
 
   width : 65%;  
