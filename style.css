@@ -298,6 +298,10 @@ h2 {
 
 }
 
+#four { 
+    color : rebeccapurple; 
+    }
+
 .contact {
 
   display : flex;
@@ -306,7 +310,7 @@ h2 {
 
   justify-content: space-evenly;
 
-  color : black;
+  color : white;
 
   flex-wrap: wrap;
 
@@ -328,7 +332,7 @@ h2 {
 
   padding : 18px;
 
-  background-color: pink;
+  background-color: black;
 
   margin : 10px;
 
